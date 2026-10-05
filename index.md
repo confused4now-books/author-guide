@@ -19,7 +19,7 @@ The three places you will meet:
 
 You need three things in place before you request a book.
 
-1. **A GitHub account.** Create one free at [github.com/signup](https://github.com/signup) and note your username. It is how the author site knows it is you, and how your edits are credited. Each co-author needs their own.
+1. **A GitHub account.** [Create one free on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) and note your username. It is how the author site knows it is you, and how your edits are credited. Each co-author needs their own.
 2. **The rights to publish everything in it.** Every book on the platform is published under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence: anyone may share and adapt it, with credit, under the same licence. Only include text, figures and photos you wrote or made yourself, or that carry a compatible open licence. Note the source and licence of any borrowed figure in its caption.
 3. **One Word file per chapter.** A chapter is one page of the book site. The introduction counts as a chapter too.
 
@@ -95,7 +95,7 @@ This is what turns a set of chapters into a connected textbook. On any chapter, 
 
 The first run can take a few seconds to start while the checker loads in your browser. A chapter with nothing to link simply says **Nothing needs changing**.
 
-**Optional: AI suggestions with DeepSeek.** If you have a [DeepSeek](https://platform.deepseek.com) API key, add it under **Settings**. The site can then suggest glossary entries and run a formatting check. The key stays in your browser only and is never stored by the platform; any charges are on your DeepSeek account. You can still accept or refuse every suggestion.
+**Optional: AI suggestions with DeepSeek.** If you have a [DeepSeek API](https://api-docs.deepseek.com) key, add it under **Settings**. The site can then suggest glossary entries and run a formatting check. The key stays in your browser only and is never stored by the platform; any charges are on your DeepSeek account. You can still accept or refuse every suggestion.
 
 ## G. Editing text on the site
 
