@@ -1,6 +1,7 @@
 ---
 authors:
   - "Alec Gordon"
+paragraphNumbers: true
 ---
 
 # Your book on Confused for Now: an A–Z guide
