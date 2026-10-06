@@ -69,7 +69,7 @@ Open a book and you find these tabs:
 
 **History** (every change to the book, who made it and when) is a button on the Chapters tab and on each chapter, not a tab of its own.
 
-**Settings** (top right, beside your username and **Sign out**) holds one optional extra: your DeepSeek key (section F). The sun or moon button switches between light and dark.
+**Settings** (top right, beside your username and **Sign out**) holds one optional extra: your DeepSeek key (section H). The sun or moon button switches between light and dark.
 
 Under Chapters, **Download a copy** gives you every file of the book in one .zip, as a backup.
 
@@ -80,13 +80,32 @@ The chapters in your original request are already in the book. To add or update 
 1. Open the book › **Bring in a Word document**, choose the file and press **Convert it**.
 2. Wait about a minute while it is converted. Nothing reaches the book yet.
 3. Check the preview. It shows the converted chapter, a list of things to check (pictures, footnotes, headings), and, for a new chapter, the line that will be added to the book's contents.
-4. Tick **I've read the converted chapter and want it in the drafts area** (and, when replacing, **Replace the … that is there now**), then choose **Send to drafts**. The chapter now sits in the drafts version of the book (section H).
+4. Under **Its formatting**, the site checks the chapter against the book's formatting rules, the same check the book runs before anything is published. It puts right what it can by itself (spacing, blank lines). Anything left is listed in plain words with its line: put it right in the box underneath (**Go to line** takes you there), then press **Check again**. **Send to drafts** stays off until the formatting is right. Your Word document is never changed.
+5. Tick **I've read the converted chapter and want it in the drafts area**, then choose **Send to drafts**. The chapter now sits in the drafts version of the book (section K).
 
-**New or replacing?** A file with a name the book hasn't seen becomes the next chapter. A file with the same name as one you brought in before replaces that chapter. Before replacing, the site shows who last changed the chapter, how many lines differ and any pictures that would be removed, and asks you to confirm. Changes made on the site since your last import are overwritten by a replacement, so bring a chapter in from Word only while Word is still your master copy.
+**Only ever bring Word files in this way: never upload them to the book through GitHub.** Anything put in the book's folders on GitHub can end up public on the book's website, the Word file included.
 
-After sending, **Go through this chapter now** takes you straight to the questions in section F.
+A file with a name the book hasn't seen becomes the next chapter. To bring in a new version of a chapter that is already in the book, see section F.
 
-## F. Citations, concept links and glossary
+After sending, **Go through this chapter now** takes you straight to the questions in section G.
+
+## F. Replacing a chapter with a new Word file
+
+When a chapter's master copy is still in Word, bring the new version in the same way (section E). The site recognises it and replaces the chapter rather than adding a new one.
+
+1. Use the **same file name** as last time. The site remembers which Word file became which chapter, so `Chapter 3 - Sampling.docx` replaces the chapter it became before. Renaming the file between versions makes a new chapter instead.
+2. Press **Convert it**. The preview is headed **It replaces chapters/…**, and says who last changed the chapter in the drafts area, when, how many lines would go and come in, and which pictures are no longer in the Word file and will be taken out.
+3. Read the converted chapter and the list of things to check, and put right anything the formatting check lists (section E, step 4).
+4. Tick both boxes, **I've read the converted chapter…** and **Replace the … that is there now**, then **Send to drafts**.
+
+Things to know:
+
+- **A replacement overwrites edits made on the site.** Anything you or a co-author changed in that chapter on the site, and answers to the questions in section G, are replaced by what is in Word. Either make those changes in Word too, or stop bringing that chapter in from Word and edit it on the site from now on (section I).
+- **The chapter keeps its place, its file name and its front-page line.** Its title comes from the Word document's first Heading 1.
+- If someone changed the drafts area while you were reading the preview, nothing is sent: press **Convert it again** and the file is checked against the drafts as they are now.
+- If the book holds a copy of the same Word file (uploaded through GitHub before the author site existed), it is taken out in the same change, and the preview says so.
+
+## G. Citations, concept links and glossary
 
 This is what turns a set of chapters into a connected textbook. On any chapter, press **Citations, concept links and glossary**. Choose what to look for, then press **Look through this chapter**. The site reads the chapter and asks you a series of short questions, for example whether a term should link to a concept page, whether a citation should be linked, or whether a word belongs in the glossary.
 
@@ -96,22 +115,64 @@ This is what turns a set of chapters into a connected textbook. On any chapter, 
 
 The first run can take a few seconds to start while the checker loads in your browser. A chapter with nothing to link simply says **Nothing needs changing**.
 
-**Optional: AI suggestions with DeepSeek.** If you have a [DeepSeek API](https://api-docs.deepseek.com) key, add it under **Settings**. The site can then suggest glossary entries and run a formatting check. The key stays in your browser only and is never stored by the platform; any charges are on your DeepSeek account. You can still accept or refuse every suggestion.
+**Optional: DeepSeek.** With your own DeepSeek key, the same screen can also suggest glossary entries and run an AI formatting pass (section H).
 
-## G. Editing text on the site
+## H. The optional AI formatting pass
+
+The AI formatting pass asks DeepSeek, an AI service, to read one chapter and suggest fixes to its formatting against the platform's formatting rules: headings, bold and italics, lists, tables, footnotes and citations, callouts, links and pictures. You don't need it: every book works without it, and the book's own formatting check (section E, step 4) is free and always on.
+
+**Setting it up.** You need your own [DeepSeek API](https://api-docs.deepseek.com) key, from a DeepSeek account you pay for yourself. Paste it under **Settings** and press **Save key**; the site checks it works. The key is kept in this browser only, never on the platform, and goes only to DeepSeek. On a shared computer, remove it when you're done.
+
+**Running it.** On a chapter, press **Citations, concept links and glossary**, tick **AI formatting check**, and press **Look through this chapter**. Each suggested fix comes as one question, with the line before and after and the rule it follows. Say yes or no to each. Nothing changes until you have seen exactly what will change and sent it to drafts.
+
+What it does:
+
+- Proposes changes to the **formatting** of one line at a time: for example a heading at the wrong level, a list not marked as a list, or a citation written differently from the rest.
+- Sends the chapter's text to DeepSeek, from your browser, when you run it. Nothing else of the book is sent.
+
+What it doesn't do:
+
+- **It never changes your words.** Any suggestion that would change the wording is thrown away before you see it, and the site tells you so. Links, footnotes, citation anchors and concept links must stay exactly as they were.
+- It doesn't check facts, spelling, grammar or whether a citation is right.
+- It doesn't add or remove lines, so it can only report problems like a missing blank line, not fix them. (The formatting check before Send fixes those.)
+- It doesn't run by itself, and doesn't change anything you haven't said yes to.
+- On a very long chapter, it reads only the first part, and says so.
+
+AI can be wrong, so read each suggestion before saying yes. Any charges are on your DeepSeek account.
+
+## I. Editing text on the site
 
 Once a chapter is in, small changes are quicker on the site than in Word. Open the chapter and choose **Edit**.
 
 - **Edit** shows the chapter's text with simple markup: `#` marks headings, `**bold**`, `*italic*`, `[[Concept name]]` a link to a concept page. Leave the markup as it is unless you mean to change it.
 - **Preview** shows roughly how it will look.
 - **Changes** shows exactly what you altered.
-- **Send to drafts** saves it, credited to you.
+- **Send to drafts** saves it, credited to you. First it checks the page against the book's formatting rules: what it can put right itself goes into your text, and anything left is listed with its line and **Go to line**. Put those right and press **Send to drafts** again.
 
 Your unsent text is kept if you move to another screen. If someone else changed the book while you were editing, nothing is overwritten: the site says **Nothing was sent** and lists what changed meanwhile. If it was a different page, **Send it on the drafts as they are now**; if it was the same page, **Open the page again**, and your earlier text is shown beside it to copy from.
 
 Decide per chapter where its master copy lives. Once you edit a chapter on the site, don't bring an older Word version of it in again, or those edits are replaced.
 
-## H. Drafts, previewing and going live
+## J. Reading order and chapter titles
+
+The order readers see is the **Contents** list on the book's front page. You can change it, and a chapter's title, from **Chapters** without touching any file.
+
+**To change the order:**
+
+1. Open the book. **Chapters, in reading order** lists the chapters as readers see them.
+2. Drag a chapter to where it belongs, or use its **↑** and **↓** buttons (handy from the keyboard).
+3. Press **Save this order**, or **Put it back** to start again. The new order goes to the drafts area as one change, and readers see it once you publish (section K).
+
+**To change a chapter's title:**
+
+1. Press **Rename** beside the chapter.
+2. Type the new title and press **Save the title**.
+
+This changes the title at the top of the chapter and its line in the Contents, in one change. The chapter's file name never changes, so links to it, readers' notes and its history all keep working. To change a title that came from Word for good, also change it in the Word document, or the next replacement (section F) brings the old one back.
+
+Chapters that aren't in the Contents are listed underneath; readers can still reach them, but not from the front page. If the Contents has writing between its chapters, the site can't rearrange it: change it with **Edit** on the front page instead.
+
+## K. Drafts, previewing and going live
 
 Your book has two versions. **Drafts** is your working copy: everything you send from the author site lands there first. **Live** is what readers see. Nothing reaches readers until you publish.
 
@@ -120,9 +181,11 @@ Your book has two versions. **Drafts** is your working copy: everything you send
 3. When drafts is ready, open **Waiting for you** › **Going live**. Press **Put it in line** if it is offered, then **Look at it, and publish**. It lists what has changed since the last publication, and who changed it.
 4. Tick **I've looked at what will go to readers, including other people's work in the drafts area** and press **Publish to the live book**. The live site updates within a few minutes (at the latest about 15).
 
+Before publishing, the site checks every page against the book's formatting rules. If a page has a problem, it is listed with its line and a **Go to line** link to put it right, and publishing waits until it's fixed. Links to other websites that no longer work are listed too, but they never stop you publishing: fix or remove them when you can.
+
 Publish when a coherent set of changes is ready, not after every edit. Readers' annotations are attached to the live text, so heavily rewriting a published passage can detach notes readers made on it.
 
-## I. Waiting for you
+## L. Waiting for you
 
 Everything that needs your decision collects under **Waiting for you**.
 
@@ -130,11 +193,11 @@ Everything that needs your decision collects under **Waiting for you**.
 | --- | --- | --- |
 | **Suggestions from readers** | Readers using **Suggest an edit** on the book site | **Accept: I'll make the change**, then **I've made the change** once it's done; **Make this change and thank the reader** when the reader wrote an exact replacement; or **Decline, politely** |
 | **Draft changes** | Readers or co-authors using **Edit this page** on the book site | Review the change line by line, then **Accept this change** or **Decline it** |
-| **Going live** | Differences between drafts and live | Publish (section H) |
+| **Going live** | Differences between drafts and live | Publish (section K) |
 
 Accepted items go into drafts, not straight to readers. Every action you take here is recorded under your name.
 
-## J. Co-authors
+## M. Co-authors
 
 Any author of a book can invite another under **People**.
 
@@ -144,14 +207,14 @@ Any author of a book can invite another under **People**.
 
 Removing someone works the same way. A book always keeps at least one author, and the platform maintainer stays on every book for support. Co-authors have exactly the same rights as you, including publishing, so agree between you who publishes.
 
-## K. History and restoring
+## N. History and restoring
 
 Nothing is ever lost. **History** lists every change to the book: who made it, when, and whether it is live yet or still waiting in drafts. Each chapter also has its own history, reached from the chapter.
 
 - Open any revision to see exactly what changed, or the whole page as it was.
 - **Restore this version** puts that older text into the editor as a new change. You check it and send it to drafts as usual; the later revisions stay in the history.
 
-## L. What readers can do
+## O. What readers can do
 
 It helps to know what your readers see, so you can point students to it.
 
@@ -165,7 +228,7 @@ It helps to know what your readers see, so you can point students to it.
 
 A reader who suggests or edits anonymously may give a name; if they do, it is shown publicly in the page's history. Readers can also browse the book's concept graph and, from the portal, every book on the platform.
 
-## M. Good habits and troubleshooting
+## P. Good habits and troubleshooting
 
 Five habits keep a book healthy:
 
@@ -180,8 +243,9 @@ Five habits keep a book healthy:
 | The site says it couldn't be reached | Check you are online and reload. If it persists, send the maintainer the page address and what you clicked. |
 | A chapter looks old after a change | Wait a few minutes (at most 15), then reload. The site may also have kept an old copy: hold Shift and reload. |
 | An import shows odd headings or missing footnotes | Fix the styles in Word (section B) and bring the same file in again. |
-| **Nothing was sent** when sending | Someone else changed the book meanwhile. Look at what changed, then send again or open the page again (section G). |
-| A co-author can't see the book | Check their GitHub username under People, and that the invite is no longer **On its way**. |
-| Something went wrong in drafts | Use History to restore the earlier version (section K). |
+| **Nothing was sent** when sending | Someone else changed the book meanwhile. Look at what changed, then send again or open the page again (section I). |
+| A co-author can't see the book | Check their GitHub username under People, and that the invite is no longer **On its way**. If it is under **Didn't go through**, the reason is shown: invite them again, or tell the maintainer. |
+| Publishing says some pages have formatting problems | Use each **Go to line** link, put the line right, send it, then publish (section K). |
+| Something went wrong in drafts | Use History to restore the earlier version (section N). |
 
 For anything else, contact the platform maintainer, Alec Gordon, at [alecg95@gmail.com](mailto:alecg95@gmail.com), with the book's name, the page address and what you were trying to do.
