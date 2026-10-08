@@ -71,9 +71,11 @@ Open a book and you find these tabs:
 
 Under Chapters, **Download a copy** gives you the whole book in one .zip, as a backup.
 
-## E. Bringing in a document
+## E. New pages, and bringing in a document
 
-The chapters in your original request are already in the book. To add one later, or update one whose master copy is still a document on your computer:
+**Writing a page here.** On **Chapters**, **New chapter** asks for its title and where it goes in the reading order; the chapter is made, empty but for its title, and opens in the editor. **New concept page** asks for the page's title and its concept folder (one the book has, or a new one) and does the same. Either is a change in your drafts like any other: readers see it when you publish.
+
+The chapters in your original request are already in the book. To add one later from a document, or update one whose master copy is still a document on your computer:
 
 1. Open the book › **Chapters** › **Bring in a document**, choose the file and press **Convert it**. Word (.docx or .doc), OpenDocument (.odt, from LibreOffice) and Rich Text (.rtf) all work, up to 20 MB. From Apple Pages, use File › Export To › Word first.
 2. Wait about a minute (a little longer for .doc, .odt and .rtf, which are turned into Word format first). Nothing reaches the book yet. If the document can't be converted, the site says so in plain words and nothing changes.
@@ -112,9 +114,11 @@ The first run can take a few seconds to start while the checker loads in your br
 **For the whole book at once**, use **Chapters** › **Across the whole book**: **Glossary terms in every chapter** or **Concept links in every chapter**. The site goes through the chapters in reading order, asking the same questions for one chapter at a time. Each chapter you save becomes its own change before the next is read, so later chapters see the glossary as the earlier ones left it. A chapter with nothing to ask about is passed by; **Skip this chapter** and **Stop** are always there.
 
 **The glossary on the book site.** Agreeing to a glossary entry also links the term where the chapter mentions it, and every later chapter is offered a link wherever it first mentions a term the glossary already has. On the book site, pointing at a linked term shows its glossary entry in a small preview; clicking opens the Glossary there.
-So run **Glossary terms in every chapter** once the chapters are in: it fills the Glossary page and links the terms as it goes.
+So run **Glossary terms in every chapter** once the chapters are in: it fills the Glossary page and links the terms as it goes. Each entry says where the term was first used, by the chapter's title, linked to it. Words that are plainly not terms (sentence fragments, labels, authors' names in citations) aren't offered.
 
-Concept pages live in a folder of their own inside the book (often **Definitions**), and sit in the reading order on **Chapters** like any page. To add one, use **Bring in a document** and choose the folder under **Where it goes**, with the page's name.
+**Adding a term by hand.** In the editor, on any page (the Glossary included), **Add glossary term** asks for the term and what it means, and puts it in the Glossary in A–Z order, in the same form as the others.
+
+Concept pages live in a folder of their own inside the book (often **Definitions**), and sit in the reading order on **Chapters** like any page. To add one, use **Chapters** › **New concept page** (section E), or **Bring in a document** and choose the folder under **Where it goes**, with the page's name.
 
 **Optional: DeepSeek.** With your own DeepSeek key, the same screen can also suggest glossary entries and run an AI formatting pass (section H).
 
