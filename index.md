@@ -111,7 +111,10 @@ The first run can take a few seconds to start while the checker loads in your br
 
 **For the whole book at once**, use **Chapters** › **Across the whole book**: **Glossary terms in every chapter** or **Concept links in every chapter**. The site goes through the chapters in reading order, asking the same questions for one chapter at a time. Each chapter you save becomes its own change before the next is read, so later chapters see the glossary as the earlier ones left it. A chapter with nothing to ask about is passed by; **Skip this chapter** and **Stop** are always there.
 
-Concept pages live in a folder of their own inside the book (often **Definitions**), listed under that folder's name on **Chapters**. To add one, use **Bring in a document** and choose the folder under **Where it goes**, with the page's name.
+**The glossary on the book site.** Agreeing to a glossary entry also links the term where the chapter mentions it, and every later chapter is offered a link wherever it first mentions a term the glossary already has. On the book site, pointing at a linked term shows its glossary entry in a small preview; clicking opens the Glossary there.
+So run **Glossary terms in every chapter** once the chapters are in: it fills the Glossary page and links the terms as it goes.
+
+Concept pages live in a folder of their own inside the book (often **Definitions**), and sit in the reading order on **Chapters** like any page. To add one, use **Bring in a document** and choose the folder under **Where it goes**, with the page's name.
 
 **Optional: DeepSeek.** With your own DeepSeek key, the same screen can also suggest glossary entries and run an AI formatting pass (section H).
 
@@ -169,7 +172,7 @@ Every change you make here is saved to the drafts straight away, and readers see
 - **Title:** press **Rename**, type the new title and press **Save the title**. This changes the title at the top of the chapter and in the reading order. Links to it, readers' notes and its history all keep working. To change a title that came from a document for good, change it there too, or the next replacement (section F) brings the old one back.
 - **Remove:** press **Remove**, and confirm with **Remove “…”**. The chapter comes out of the drafts; readers keep it until you publish. Changed your mind? **Discard** it on Drafts, or **Bring it back** from History (section N).
 
-Pages that aren't in the reading order are listed underneath; readers can still reach them, but not from the front page. The front page and the glossary are under **The rest of the book**. If the front page's Contents has writing between its chapters, the site can't rearrange it: change it in the editor instead.
+Every page readers can reach is in this list: the chapters, the glossary and any concept pages, in the order the book's sidebar and its front page's Contents show them. A page the Contents doesn't list yet (one added on GitHub, say) comes last, marked **Not in the Contents**; readers find it at the end too. Move it where it belongs, or press **Add to the Contents** to keep it at the end. The glossary can be moved and renamed but not removed. The front page is under **The rest of the book**. If the front page's Contents has writing between its chapters, the site can't rearrange it: change it in the editor instead.
 
 ## K. Drafts, previewing and publishing
 
@@ -194,7 +197,7 @@ Everything in the drafts goes, whoever made it, so agree with your co-authors wh
 
 ## L. Readers' suggestions
 
-Suggestions from readers appear at the top of **Drafts**.
+Suggestions from readers appear at the top of **Drafts**. On **Chapters**, each page shows how many are waiting on it (**2 suggestions**); its editor lists them under the text, each with **Accept** and **Decline**.
 
 | Item | Where it comes from | What you can do |
 | --- | --- | --- |
@@ -202,6 +205,8 @@ Suggestions from readers appear at the top of **Drafts**.
 | **Written suggestions** | Readers using **Suggest an edit** on the book site | Open one: **Accept: I'll make the change**, then **I've made the change** once it's done; **Make this change and thank the reader** when the reader wrote an exact replacement; or **Decline, politely** |
 
 Accepted suggestions go into the drafts, not straight to readers. Every answer is recorded under your name.
+
+**Being told.** When a reader's suggestion arrives, every author is @mentioned on it, so GitHub emails you (as your GitHub notification settings allow). To stop those emails for yourself, go to **People** › **Emails about reader suggestions** › **Stop emailing me**; **Email me again** turns them back on. It changes nothing for your co-authors.
 
 ## M. Co-authors
 
