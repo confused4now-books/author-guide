@@ -62,7 +62,7 @@ Open a book and you find these tabs:
 
 | Tab | What you do there |
 | --- | --- |
-| **Chapters** | The chapters in reading order, each with where it stands; edit, reorder, rename, remove; **Bring in a document** |
+| **Chapters** | The chapters in reading order, each with where it stands; edit, reorder, rename, remove; **Bring in a document**; glossary and concept links across the whole book; **Reader discussion** |
 | **Drafts (N)** | Everything readers will get when you publish, readers' suggestions, the checks, and the **Publish** button |
 | **People** | Invite or remove co-authors |
 | **History** | Every change to the book, who made it and when; restore or bring back |
@@ -84,7 +84,7 @@ What the book's formatting rules can put right (spacing, blank lines) is put rig
 
 **Only ever bring documents in this way: never upload them to the book through GitHub.** If an earlier copy of the same document was uploaded into the book, it is taken out in the same change; readers only ever see chapters.
 
-After adding it, **Open it in the editor** takes you to the chapter; the questions in section G are linked from there.
+After adding it, **Links & glossary for it now** takes you straight to the questions in section G, or **Open it in the editor** to read it first.
 
 ## F. Replacing a chapter with a new version of its document
 
@@ -100,14 +100,18 @@ Things to know:
 - **The chapter keeps its place in the reading order.** Its title comes from the document's first Heading 1.
 - If someone changed the drafts while it was converting, nothing is added: press **Convert it again** and it is checked against the drafts as they are now.
 
-## G. Citations, concept links and glossary
+## G. Links & glossary: citations, concept links and the glossary
 
-This is what turns a set of chapters into a connected textbook. Open any chapter in the editor and press **Citations, concept links and glossary** underneath. Choose what to look for, then press **Look through this chapter**. The site reads the chapter and asks you a series of short questions, for example whether a term should link to a concept page, whether a citation should be linked, or whether a word belongs in the glossary.
+This is what turns a set of chapters into a connected textbook. Open any chapter in the editor and press **Links & glossary** (beside **Done**); what you have typed is saved first. Choose what to look for, then press **Look through this chapter**. The site reads the chapter and asks you a series of short questions, for example whether a term should link to a concept page, whether a citation should be linked, or whether a word belongs in the glossary.
 
 - Answer **Yes, make this change** or **No, leave it alone**, or **Yes to every …** / **No to every …** for the same answer at every later occurrence. **Go back one** undoes your last answer.
 - Before anything is sent, you see exactly which lines will change (**Here is exactly what will change**). Tick the confirmation box, then **Save to drafts** applies your answers in one go. Glossary entries you agreed to are added to the glossary at the same time. Concept links point to concept pages the book already has; they don't create new ones.
 
-The first run can take a few seconds to start while the checker loads in your browser. A chapter with nothing to link simply says **Nothing needs changing**.
+The first run can take a few seconds to start while the checker loads in your browser. A chapter with nothing to link simply says **Nothing needs changing**. What you save shows on **Drafts** like any other change (**Edited “…”**, **Edited “Glossary”**).
+
+**For the whole book at once**, use **Chapters** › **Across the whole book**: **Glossary terms in every chapter** or **Concept links in every chapter**. The site goes through the chapters in reading order, asking the same questions for one chapter at a time. Each chapter you save becomes its own change before the next is read, so later chapters see the glossary as the earlier ones left it. A chapter with nothing to ask about is passed by; **Skip this chapter** and **Stop** are always there.
+
+Concept pages live in a folder of their own inside the book (often **Definitions**), listed under that folder's name on **Chapters**. To add one, use **Bring in a document** and choose the folder under **Where it goes**, with the page's name.
 
 **Optional: DeepSeek.** With your own DeepSeek key, the same screen can also suggest glossary entries and run an AI formatting pass (section H).
 
@@ -117,7 +121,7 @@ The AI formatting pass asks DeepSeek, an AI service, to read one chapter and sug
 
 **Setting it up.** You need your own [DeepSeek API](https://api-docs.deepseek.com) key, from a DeepSeek account you pay for yourself. Paste it under **Settings** and press **Save key**; the site checks it works. The key is kept in this browser only, never on the platform, and goes only to DeepSeek. On a shared computer, remove it when you're done.
 
-**Running it.** In a chapter's editor, press **Citations, concept links and glossary**, tick **AI formatting check**, and press **Look through this chapter**. Each suggested fix comes as one question, with the line before and after and the rule it follows. Say yes or no to each. Nothing changes until you have seen exactly what will change and saved it to the drafts.
+**Running it.** In a chapter's editor, press **Links & glossary**, tick **AI formatting check**, and press **Look through this chapter**. Each suggested fix comes as one question, with the line before and after and the rule it follows. Say yes or no to each. Nothing changes until you have seen exactly what will change and saved it to the drafts.
 
 What it does:
 
