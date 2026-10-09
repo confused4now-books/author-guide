@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "contributors": [
+    {
+      "name": "book-requests",
+      "github": "textbookproject2026-alt",
+      "counts": {
+        "edit": 0,
+        "note": 0,
+        "suggestion": 0,
+        "commit": 5
+      },
+      "contributions": [
+        {
+          "kind": "commit",
+          "ref": "9e77e93",
+          "url": "https://github.com/confused4now-books/author-guide/commit/9e77e93fde5050c2606f20b37916cea4e2b5d787",
+          "date": "2026-10-05",
+          "pages": [
+            "chapters/Definitions/Example concept.md",
+            "chapters/chapter-01.md",
+            "glossary.md",
+            "index.md"
+          ]
+        },
+        {
+          "kind": "commit",
+          "ref": "460389f",
+          "url": "https://github.com/confused4now-books/author-guide/commit/460389f9bdf60df1efbf1570fdbc6b840ecb4430",
+          "date": "2026-10-08",
+          "pages": [
+            "index.md"
+          ]
+        },
+        {
+          "kind": "commit",
+          "ref": "4895a40",
+          "url": "https://github.com/confused4now-books/author-guide/commit/4895a4056208bc90d61a0962611241b52ce0cf99",
+          "date": "2026-10-08",
+          "pages": [
+            "index.md"
+          ]
+        },
+        {
+          "kind": "commit",
+          "ref": "a2b08ae",
+          "url": "https://github.com/confused4now-books/author-guide/commit/a2b08aec950022cfb779bb41e97ddc97c8a2c753",
+          "date": "2026-10-08",
+          "pages": [
+            "index.md"
+          ]
+        },
+        {
+          "kind": "commit",
+          "ref": "dd4088a",
+          "url": "https://github.com/confused4now-books/author-guide/commit/dd4088afc873038abbac5d830dad40c930779f99",
+          "date": "2026-10-08",
+          "pages": [
+            "index.md"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dept-coordinator-test",
+      "counts": {
+        "edit": 0,
+        "note": 0,
+        "suggestion": 0,
+        "commit": 3
+      },
+      "contributions": [
+        {
+          "kind": "commit",
+          "ref": "295d8e9",
+          "url": "https://github.com/confused4now-books/author-guide/commit/295d8e9eeb4e2d88dbcfa9388126f722f2b196fe",
+          "date": "2026-10-06",
+          "pages": [
+            "index.md"
+          ]
+        },
+        {
+          "kind": "commit",
+          "ref": "60f78ef",
+          "url": "https://github.com/confused4now-books/author-guide/commit/60f78efe42ff14ae551fdec6e01c0fbba9f6ed6e",
+          "date": "2026-10-06",
+          "pages": [
+            "index.md"
+          ]
+        },
+        {
+          "kind": "commit",
+          "ref": "84e6cf4",
+          "url": "https://github.com/confused4now-books/author-guide/commit/84e6cf43c3147f2e4f657bf22c4f2a32a7119169",
+          "date": "2026-10-06",
+          "pages": [
+            "chapters/Definitions/Example concept.md",
+            "chapters/chapter-01.md",
+            "glossary.md",
+            "index.md"
+          ]
+        }
+      ]
+    }
+  ]
+}
