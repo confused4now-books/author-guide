@@ -220,12 +220,12 @@ Accepted suggestions go into the drafts, not straight to readers. Every answer i
 Anyone working on a book can invite someone else under **People**.
 
 1. Under **People** › **Invite someone**, enter **Their name, as the book will credit them** and **Their email address**.
-2. Press **Send the invitation**. They get an email with a **Join the book** button; it works once, within seven days. If you'd rather send it yourself, press **Copy a link instead** and send them the link.
+2. Press **Send the invitation**. They get an email with a **Join the book** button; it works once, within seven days. If you'd rather send it yourself, press **Copy a link instead** and send them the link. When they open it, the invitation is emailed to the address you gave, and they join from there.
 3. Once they've joined, they're listed under **Who works on this book** straight away, and **What changed** says so.
 
 **Removing** someone is under the same list: **Remove**, then confirm. It takes effect at once: if they were signed in, they're signed out. A book always keeps at least one person, and the platform maintainer stays on every book for support. Everyone on a book has exactly the same rights as you, including publishing and inviting, so agree between you who publishes.
 
-Someone listed with **needs an email address** joined before email sign-in. Enter their address and press **Send them a link**: once they open it, they sign in with that address.
+Someone listed with **needs an email address** joined before email sign-in. They add their address the next time they sign in with GitHub, or the platform's maintainer adds it for them from People.
 
 ## N. History and restoring
 
