@@ -61,6 +61,8 @@ The platform maintainer reviews each request. Once it is approved, your book is 
 
 You stay signed in on that device for 30 days. To sign out, open the round button with your initial at the top right and choose **Sign out**; **Sign out everywhere** signs you out on every device at once (for a lost phone, say). You then see **Your books**: every book you work on.
 
+**Where you're signed in**, in the same menu, lists every browser your account is signed in on (the browser and system, when it was last used, and **This browser** for the one you're using), each with **Sign out**. When your account signs in on a browser it hasn't used before, you get an email saying when and on what. If it wasn't you, press **This wasn't me** in that email, then **Sign out everywhere** on the page it opens. Opening a link from the author site never does anything by itself: it always shows a page with a button, so a mail scanner that opens links can't use them up.
+
 Open a book and you find these tabs:
 
 | Tab | What you do there |
@@ -208,8 +210,10 @@ Suggestions from readers appear at the top of **Drafts**. On **Chapters**, each 
 
 | Item | Where it comes from | What you can do |
 | --- | --- | --- |
-| **Reader suggestions** | Readers using **Edit this page** on the book site | **View changes**, then **Accept** (it goes into the drafts) or **Decline** (closed with a note thanking them) |
-| **Written suggestions** | Readers using **Suggest an edit** on the book site | Open one: **Accept: I'll make the change**, then **I've made the change** once it's done; **Make this change and thank the reader** when the reader wrote an exact replacement; or **Decline, politely** |
+| **Reader suggestions** | Readers using **Edit this page** on the book site | **View changes**, then **Accept** (it goes into the drafts) or **Decline…** |
+| **Written suggestions** and **notes** | Readers using **Suggest an edit** on the book site | Open one: **Accept: I'll make the change**, then **I've made the change** once it's done; **Make this change and thank the reader** when the reader wrote an exact replacement; or **Decline…** |
+
+**Declining needs a reason.** **Decline…** asks *Why is this being declined?* (at least 10 characters, at most 1000). The reason is public, with your name: on GitHub and in the book's history, where anyone can see what was declined and why. The reader is also thanked.
 
 Accepted suggestions go into the drafts, not straight to readers. Every answer is recorded under your name.
 
@@ -234,6 +238,7 @@ Nothing is ever lost. **History** lists every change to the book: who made it, w
 - Open any revision to see exactly what changed, or the whole page as it was.
 - **Restore this version** opens that older text in the editor, which saves it to the drafts as a new change; the later revisions stay in the history.
 - For a change that removed a chapter, **Bring “…” back** puts it back into the drafts as it was, at the end of the reading order.
+- **Declined** lists what was declined: who proposed it, who declined it and why, and for an edit **Show changes**. Anyone on the book can **Add a comment** to a declined item, and delete their own. Comments are public; readers can read them but not reply.
 
 ## O. What readers can do
 
