@@ -6,7 +6,7 @@ paragraphNumbers: true
 
 # Your book on Confused for Now: an A–Z guide
 
-You write in Word, you work on your book at the author site, and readers read it on the book's own website. This guide takes you from a folder of Word files to a published open textbook, in order. You never need to use GitHub directly; you only need a free GitHub account to sign in.
+You write in Word, you work on your book at the author site, and readers read it on the book's own website. This guide takes you from a folder of Word files to a published open textbook, in order. You don't need any account: you sign in with your email address.
 
 The three places you will meet:
 
@@ -18,11 +18,10 @@ The three places you will meet:
 
 ## A. Before you start
 
-You need three things in place before you request a book.
+You need two things in place before you request a book. You don't need any account: the author site signs you in with your email address.
 
-1. **A GitHub account.** [Create one free on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) and note your username. It is how the author site knows it is you, and how your edits are credited. Each co-author needs their own.
-2. **The rights to publish everything in it.** Every book on the platform is published under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence: anyone may share and adapt it, with credit, under the same licence. Only include text, figures and photos you wrote or made yourself, or that carry a compatible open licence. Note the source and licence of any borrowed figure in its caption.
-3. **One Word file per chapter.** A chapter is one page of the book site. The introduction counts as a chapter too.
+1. **The rights to publish everything in it.** Every book on the platform is published under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licence: anyone may share and adapt it, with credit, under the same licence. Only include text, figures and photos you wrote or made yourself, or that carry a compatible open licence. Note the source and licence of any borrowed figure in its caption.
+2. **One Word file per chapter.** A chapter is one page of the book site. The introduction counts as a chapter too.
 
 ## B. Preparing your Word files
 
@@ -48,15 +47,19 @@ Keep the file name stable. When you bring the same file in again later, the plat
 You request a book once, on the portal; everything after that happens on the author site.
 
 1. Go to [confused4now.org](https://confused4now.org), find **Publish your textbook here** and press **Start the request form**.
-2. Fill in **Title of the book**, **Author or authors**, **Your email address** and **What the book is about** (one or two sentences). **Subject area**, **GitHub username** and **Anything else** are optional; give your GitHub username if you have one, so you can sign in to the author site straight away.
+2. Fill in **Title of the book**, **Author or authors**, **Your email address** and **What the book is about** (one or two sentences). The other fields are optional.
 3. Under **Manuscript**, choose the Word (or Markdown) files you have ready: up to five files and 20 MB in total. You can remove a file from the list before sending. For more, use **Or a link to the manuscript**.
 4. Tick the box agreeing to the CC BY-SA 4.0 licence and press **Send request**.
 
-The platform maintainer reviews each request. Once it is approved, your book is set up automatically: its website, its working area and your access. You receive a welcome email with the link to your book's site and to the author site. Setting up takes about half an hour once the request is approved. If you didn't give a GitHub username, reply to the welcome email with it and you'll be added.
+The platform maintainer reviews each request. Once it is approved, your book is set up automatically: its website and its working area. You receive a welcome email with the link to your book's site, and an invitation to the author site at the address you gave (section D). Setting up takes about half an hour once the request is approved.
 
 ## D. Signing in to the author site
 
-Go to [author.confused4now.org](https://author.confused4now.org) and choose **Sign in with GitHub**. GitHub asks once whether to allow the sign-in; the site only learns who you are and never gets access to your GitHub account. You then see **Your books**: every book you are an author of.
+**The first time**, open the invitation email ("… invited you to work on … on Confused for Now") and press **Join the book**. Check **Your name as it appears in the book's credits** (it's how readers will see you) and press **Continue**. You're in the book.
+
+**After that**, go to [author.confused4now.org](https://author.confused4now.org), enter your email address and press **Email me a sign-in link**. Open the email and press **Sign in**, then **Sign in** again on the page it opens. The link works once, for 15 minutes; if it has expired, ask for another. The page always says "If that address has access, we've sent a link", whatever the address, so nobody can use it to find out who is on a book.
+
+You stay signed in on that device for 30 days. To sign out, open the round button with your initial at the top right and choose **Sign out**; **Sign out everywhere** signs you out on every device at once (for a lost phone, say). You then see **Your books**: every book you work on.
 
 Open a book and you find these tabs:
 
@@ -84,7 +87,7 @@ The chapters in your original request are already in the book. To add one later 
 
 What the book's formatting rules can put right (spacing, blank lines) is put right on the way in. Anything left is listed in the editor, with its line, and on Drafts before you publish. Your document itself is never changed.
 
-**Only ever bring documents in this way: never upload them to the book through GitHub.** If an earlier copy of the same document was uploaded into the book, it is taken out in the same change; readers only ever see chapters.
+**Only ever bring documents in this way: never put them into the book any other way.** If an earlier copy of the same document was uploaded into the book, it is taken out in the same change; readers only ever see chapters.
 
 After adding it, **Links & glossary for it now** takes you straight to the questions in section G, or **Open it in the editor** to read it first.
 
@@ -176,7 +179,7 @@ Every change you make here is saved to the drafts straight away, and readers see
 - **Title:** press **Rename**, type the new title and press **Save the title**. This changes the title at the top of the chapter and in the reading order. Links to it, readers' notes and its history all keep working. To change a title that came from a document for good, change it there too, or the next replacement (section F) brings the old one back.
 - **Remove:** press **Remove**, and confirm with **Remove “…”**. The chapter comes out of the drafts; readers keep it until you publish. Changed your mind? **Discard** it on Drafts, or **Bring it back** from History (section N).
 
-Every page readers can reach is in this list: the chapters, the glossary and any concept pages, in the order the book's sidebar and its front page's Contents show them. A page the Contents doesn't list yet (one added on GitHub, say) comes last, marked **Not in the Contents**; readers find it at the end too. Move it where it belongs, or press **Add to the Contents** to keep it at the end. The glossary can be moved and renamed but not removed. The front page is under **The rest of the book**. If the front page's Contents has writing between its chapters, the site can't rearrange it: change it in the editor instead.
+Every page readers can reach is in this list: the chapters, the glossary and any concept pages, in the order the book's sidebar and its front page's Contents show them. A page the Contents doesn't list yet (one added outside the author site, say) comes last, marked **Not in the Contents**; readers find it at the end too. Move it where it belongs, or press **Add to the Contents** to keep it at the end. The glossary can be moved and renamed but not removed. The front page is under **The rest of the book**. If the front page's Contents has writing between its chapters, the site can't rearrange it: change it in the editor instead.
 
 ## K. Drafts, previewing and publishing
 
@@ -210,17 +213,19 @@ Suggestions from readers appear at the top of **Drafts**. On **Chapters**, each 
 
 Accepted suggestions go into the drafts, not straight to readers. Every answer is recorded under your name.
 
-**Being told.** When a reader's suggestion arrives, every author is @mentioned on it, so GitHub emails you (as your GitHub notification settings allow). To stop those emails for yourself, go to **People** › **Emails about reader suggestions** › **Stop emailing me**; **Email me again** turns them back on. It changes nothing for your co-authors.
+**Being told.** When a reader sends a proposal, a note or a suggestion, everyone on the book gets one email about it: what it is, which paragraph, and a **Review in the author site** button. To stop those emails for yourself, go to **People** › **Emails about reader suggestions** › **Stop emailing me**; **Email me again** turns them back on. It changes nothing for your co-authors.
 
 ## M. Co-authors
 
-Any author of a book can invite another under **People**.
+Anyone working on a book can invite someone else under **People**.
 
-1. Ask your co-author for their GitHub username (section A).
-2. Under **People** › **Invite someone**, enter it in **Their GitHub username** and choose **Invite**.
-3. The change shows under **On its way** for a few minutes, then they are an author. GitHub notifies them with a link; they sign in at the author site and the book appears under Your books. One change to People goes through at a time.
+1. Under **People** › **Invite someone**, enter **Their name, as the book will credit them** and **Their email address**.
+2. Press **Send the invitation**. They get an email with a **Join the book** button; it works once, within seven days. If you'd rather send it yourself, press **Copy a link instead** and send them the link. When they open it, the invitation is emailed to the address you gave, and they join from there.
+3. Once they've joined, they're listed under **Who works on this book** straight away, and **What changed** says so.
 
-Removing someone works the same way. A book always keeps at least one author, and the platform maintainer stays on every book for support. Co-authors have exactly the same rights as you, including publishing, so agree between you who publishes.
+**Removing** someone is under the same list: **Remove**, then confirm. It takes effect at once: if they were signed in, they're signed out. A book always keeps at least one person, and the platform maintainer stays on every book for support. Everyone on a book has exactly the same rights as you, including publishing and inviting, so agree between you who publishes.
+
+Someone listed with **needs an email address** joined before email sign-in. They add their address the next time they sign in with GitHub, or the platform's maintainer adds it for them from People.
 
 ## N. History and restoring
 
@@ -248,7 +253,7 @@ A reader who suggests or edits anonymously may give a name; if they do, it is sh
 
 Five habits keep a book healthy:
 
-- Work only on the author site. Don't upload files or edit on GitHub directly, even if you can see the book there.
+- Work only on the author site. Don't change the book anywhere else, even if you can see where it is kept.
 - Keep chapter documents on your own computer; don't put .docx, .doc, .odt or .rtf files inside the book.
 - Keep each chapter's file name stable between versions.
 - Check the drafts preview before every publication.
@@ -260,7 +265,8 @@ Five habits keep a book healthy:
 | A chapter looks old after a change | Wait a few minutes (at most 15), then reload. The site may also have kept an old copy: hold Shift and reload. |
 | An imported chapter shows odd headings or missing footnotes | Fix the styles in Word (section B) and bring the same file in again. |
 | **Not saved** under a chapter's title | Press **Try again**; if it asks you to **Reload**, someone changed the same chapter at the same moment (section I). |
-| A co-author can't see the book | Check their GitHub username under People, and that the invite is no longer **On its way**. If it is under **Didn't go through**, the reason is shown: invite them again, or tell the maintainer. |
+| A co-author can't see the book | Check they're listed under People › **Who works on this book**. If they're under **Invited, not joined yet**, their invitation is still waiting: it works for seven days, so invite them again if it has run out. Their sign-in links go to the address they joined with. |
+| The sign-in email doesn't arrive | Wait a minute and look in your spam folder. Check you used the address you were invited at; the page can't tell you whether an address has access. |
 | **Publish** can't be pressed | Read the reason right above it. For formatting problems, use each **Fix**, put the line right (it saves itself), then come back to Drafts (section K). |
 | Something went wrong in drafts | **Discard** it on Drafts, or use History to restore the earlier version (section N). |
 
