@@ -17,7 +17,7 @@ No accepted contributions yet. The first accepted edit, note or suggestion puts 
 ## How credit works
 
 - **Authors** wrote the book or a chapter, and **editors** edited it. Both are named on the pages they worked on, and both are in every citation: a chapter is cited by its authors, with the book's editors as the book's; a book with editors and no authors of its own is cited by its editors.
-- **Contributors** are readers whose work the authors accepted: an edit proposed with *Edit this page* and merged, a note to the authors or a suggested edit the authors acted on, or an edit by one of the book's team in the author site. Each is thanked at the foot of the pages they changed and listed here. Contributors are not part of the citation.
+- **Contributors** are readers whose work the authors accepted: an edit proposed with *Edit this page* and merged, a note to the authors or a suggested edit the authors acted on, or an edit to a page's text by one of the book's team in the author site (a change to a page's credits or title alone isn't a contribution). Each is thanked at the foot of the pages they changed and listed here. Contributors are not part of the citation.
 - Something the authors decline earns no credit. Someone who sent a suggestion without signing in is credited by the name they gave.
 - To be left off this page, or to have two names counted as one person, ask the authors: they record it in `community/credit-overrides.yml`.
 
