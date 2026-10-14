@@ -279,4 +279,4 @@ Five habits keep a book healthy:
 | **Publish** can't be pressed | Read the reason right above it. For formatting problems, use each **Fix**, put the line right (it saves itself), then come back to Drafts (section K). |
 | Something went wrong in drafts | **Discard** it on Drafts, or use History to restore the earlier version (section N). |
 
-For anything else, contact the platform maintainer, Alec Gordon, at [alecg95@gmail.com](mailto:alecg95@gmail.com), with the book's name, the page address and what you were trying to do.
+For anything else, contact the platform maintainer, Alec Gordon, at [hello@confused4now.org](mailto:hello@confused4now.org), with the book's name, the page address and what you were trying to do.
