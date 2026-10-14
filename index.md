@@ -187,7 +187,7 @@ Every page readers can reach is in this list: the chapters, the glossary and any
 
 Your book has two versions. **Drafts** is your working copy: everything you do on the author site lands there first. **Live** is what readers see. Nothing reaches readers until you publish, from the **Drafts (N)** tab, where N is how many changes are waiting.
 
-**What's in the drafts** lists those changes, one plain line each: **New chapter “…”**, **Edited “…” (N paragraphs)**, **Removed “…”**, **Chapter order changed**, and new pictures. Each says who made it and when.
+**What's in the drafts** lists those changes, one plain line each: **New chapter “…”**, **Edited “…” (N paragraphs)**, **Removed “…”**, **Chapter order changed**, **Type changed to “Paper”**, and new pictures. Each says who made it and when.
 
 - **View changes** shows exactly what differs from what readers have.
 - **Discard** puts that one item back as readers have it (it asks first). History keeps what was discarded.
@@ -203,6 +203,10 @@ Your book has two versions. **Drafts** is your working copy: everything you do o
 Then press the big **Publish N changes** button. If it can't be pressed, the reason is written right above it. While it works it says **Publishing… readers will see it in about 3 minutes**, then **Published**, with links to the changed chapters on the live site. If something goes wrong, it says what, with **Try again**.
 
 Everything in the drafts goes, whoever made it, so agree with your co-authors who publishes. Publish when a coherent set of changes is ready, not after every edit: readers' annotations are attached to the live text, so heavily rewriting a published passage can detach notes readers made on it.
+
+### Book, Paper, Report or Article
+
+Your book's **Settings** tab has **This is a…**: choose **Book**, **Paper**, **Report** or **Article**. It is shown beside the title on your book's site and in the catalogue at confused4now.org, and citations use it. Like any other change it goes to the drafts first (Drafts shows **Type changed to “Paper”**), and readers see it when you publish. Anyone on the book can change it.
 
 ## L. Readers' suggestions
 
