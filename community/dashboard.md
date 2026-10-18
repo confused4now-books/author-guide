@@ -36,4 +36,4 @@ No suggestions have come in from readers yet. The route is live, but a reader on
 
 Where these figures come from: annotation counts from the Hypothes.is API, covering the public layer for the site; everything else from the GitHub API. Visitor numbers are not read programmatically and are linked instead. If any of those calls fails, the rebuild stops and this page is left exactly as it was — it will never quietly report a zero that means "the job broke".
 
-*This page is rebuilt weekly, and is dated by the most recent thing it counts rather than by the day it ran: 13 October 2026.*
+*This page is rebuilt weekly, and is dated by the most recent thing it counts rather than by the day it ran: 18 October 2026.*
